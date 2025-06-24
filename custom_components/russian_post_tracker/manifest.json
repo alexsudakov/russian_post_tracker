@@ -1,0 +1,12 @@
+{
+  "domain": "russian_post_tracker",
+  "name": "Russian Post Tracker",
+  "version": "1.0.0",
+  "documentation": "https://github.com/yourusername/russian_post_tracker", 
+  "requirements": ["zeep>=4.1.0", "lxml", "requests"],
+  "codeowners": ["@yourusername"],
+  "config_flow": true,
+  "iot_class": "cloud_polling",
+  "dependencies": [],
+  "integration_type": "device"
+}
